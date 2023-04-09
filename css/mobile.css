@@ -74,9 +74,9 @@ font-weight: 900;
 }
 
 .explore-restaurant {
-    border-radius: 30px;
+    border-radius: 25px;
     background: linear-gradient(#ff79da, #9356dc);
-    width: 25%;
+    width: 40%;
     border: none;
     color: white;
     text-align: center;
@@ -87,3 +87,17 @@ font-weight: 900;
 
 /*************************Deuxiéme section********************/
 
+#second-section {
+  margin: 5%;
+}
+
+.choose {
+  border-radius: 20px;
+  background-color: #f7f7f7;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 5%;
+  text-align: center;
+  padding: 22px;  /*Permet au border-radius d'être plus volumineux*/
+  font-weight: 600;
+}

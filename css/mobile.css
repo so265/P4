@@ -1,17 +1,89 @@
 /***Feuille de style mobile.css projet 4 Ohmyfood Mobile First***/
+/***J'intégre d'abord la version mobile puis tablette puis desktop***/
 
-
-@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");    /***On peut mettre ce lien de google font soit ds le CSS soit ds le html***/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
 
 html {
-    text-size-adjust: 100%; /* Determine ajustement taille police par rapport à sa taille initiale*/
-    font-size: 100%; /*Tous mes éléments utilisant l’unité de mesure REM, auront une taille relative à cette taille (100% dans le cas présent)*/
-  }
+  text-size-adjust: 100%; /* Determine ajustement taille police par rapport à sa taille initiale*/
+  font-size: 100%; /*Tous mes éléments utilisant l’unité de mesure REM, auront une taille relative à cette taille (100% dans le cas présent)*/
+}
 
-  body,
+body,
 html {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
+
+h1, h2, h3 {
+  font-family: "roboto", sans-serif;
+}
+
+/*****Header*****/
+header {
+  padding: 1rem;
+  box-shadow: 0 0 0.5rem rgb(0 0 0 / 25%);
+}
+
+#logo-ohmyfood {
+  display: block;
+  margin: auto;  /*Ainsi se place au milieu avec display block*/
+}
+/*****Fin header*****/
+
+main {
+  margin: auto;
+  display: block; /*valeur par défaut, elements les un en dessous de autres, oblige à revenir à la ligne*/
+  justify-content: flex-start; /*Indique la façon dt l'espace doit etre réparti entre et autour des élements selon l'axe principal*/
+  width: 100%;
+}
+
+/******Premiére section va du choix de la ville jusqu'à explorer nos restaurants******/
+#search-city {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  width: 100%;
+  background-color: #f3f3f3;
+  border-style: none;
+  align-items: center;
+}
+
+#Paris {
+font-family: "robotto",  sans-serif;
+font-weight: 700;
+}
+
+.fas.fa-map-marker-alt {
+  padding: 1rem 1.25rem;
+}
+
+#bloc-section {
+  text-align: center;
+  padding: 2rem;
+  background-color: #fafafa;
+}
+
+.title-h1 {
+font-weight: 900;
+}
+
+#discover {
+  font-weight: 300;
+}
+
+.explore-restaurant {
+    border-radius: 30px;
+    background: linear-gradient(#ff79da, #9356dc);
+    width: 25%;
+    border: none;
+    color: white;
+    text-align: center;
+    margin: auto;    /*se centre au milieu de la page*/
+    padding: 15px;   
+    cursor: pointer;
+}
+
+/*************************Deuxiéme section********************/
+

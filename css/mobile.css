@@ -1,7 +1,7 @@
 /***Feuille de style mobile.css projet 4 Ohmyfood Mobile First***/
 /***J'intégre d'abord la version mobile puis tablette puis desktop***/
 
-@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap"); /***On peut mettre ce lien de google font soit ds le CSS soit ds le html***/
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap"); /***On peut mettre ce lien de google font (police d'écriture) soit ds le CSS soit ds le html***/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
 
 html {
@@ -41,7 +41,7 @@ main {
   width: 100%;
 }
 
-/******Premiére section va du choix de la ville jusqu'à explorer nos restaurants******/
+/*********************Premiére section va du choix de la ville jusqu'à explorer nos restaurants************************/
 #search-city {
   display: flex;
   justify-content: center;
@@ -89,7 +89,7 @@ main {
   cursor: pointer;
 }
 
-/*************************Deuxiéme section********************/
+/***************************************Deuxiéme section************************************/
 
 #second-section {
   margin: 5%;
@@ -161,3 +161,55 @@ main {
   padding: 22px; /*Permet au border-radius d'être plus volumineux*/
   font-size: medium;
 }
+/********Fin deuxiéme section********/
+
+/*****************************************Troisiéme et derniére section***********************************/
+
+#third-section {
+margin: 40px;
+margin-top: 100px;
+}
+
+.backround-card {
+  width: 90%;
+  margin: 5%;
+  cursor: pointer;
+  border-radius: 30px;
+  background: white;
+  box-shadow: 2px 2px 5px #aaaaaa;
+  padding-bottom: 1%;
+  position: relative;
+ 
+}
+
+.a-third-section {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.pictures {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  height: 230px;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.new {
+  border-radius: 10%;
+    padding: 5px 10px;
+    right: 8%;
+    margin-top: 15px;
+    position: absolute;
+    background-color: #99e2d0;
+    color: #2c9c81;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.flex-menu {    /*Pour que les coeurs se trouvent à coté à droite du  titre et du paragraphe(qui eux, sont l'un en dessous de l'autre)*/
+display: flex;    
+}
+          

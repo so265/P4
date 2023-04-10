@@ -1,7 +1,7 @@
 /***Feuille de style mobile.css projet 4 Ohmyfood Mobile First***/
 /***J'intégre d'abord la version mobile puis tablette puis desktop***/
 
-@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");    /***On peut mettre ce lien de google font soit ds le CSS soit ds le html***/
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap"); /***On peut mettre ce lien de google font soit ds le CSS soit ds le html***/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
 
 html {
@@ -16,7 +16,9 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "roboto", sans-serif;
 }
 
@@ -28,7 +30,7 @@ header {
 
 #logo-ohmyfood {
   display: block;
-  margin: auto;  /*Ainsi se place au milieu avec display block*/
+  margin: auto; /*Ainsi se place au milieu avec display block*/
 }
 /*****Fin header*****/
 
@@ -51,8 +53,8 @@ main {
 }
 
 #Paris {
-font-family: "robotto",  sans-serif;
-font-weight: 700;
+  font-family: "robotto", sans-serif;
+  font-weight: 700;
 }
 
 .fas.fa-map-marker-alt {
@@ -66,47 +68,96 @@ font-weight: 700;
 }
 
 .title-h1 {
-font-weight: 900;
+  font-weight: bold; /*Gras police*/
+  font-size: x-large; /*Taille police*/
 }
 
 #discover {
   font-weight: 300;
+  font-size: 1.2em;
 }
 
 .explore-restaurant {
-    border-radius: 25px;
-    background: linear-gradient(#ff79da, #9356dc);
-    width: 40%;
-    border: none;
-    color: white;
-    text-align: center;
-    margin: auto;    /*se centre au milieu de la page*/
-    padding: 15px;   
-    cursor: pointer;
+  border-radius: 30px;
+  background: linear-gradient(#ff79da, #9356dc);
+  width: 70%;
+  border: none;
+  color: white;
+  text-align: center;
+  margin: auto; /*Se centre au milieu de la page*/
+  padding: 15px;
+  cursor: pointer;
 }
 
 /*************************Deuxiéme section********************/
 
 #second-section {
   margin: 5%;
+  font-weight: bold;
+  padding-top: 20px;
+  margin-bottom: 20px;
 }
 
-.choise {
-display: flex;
-
+#choice {
+  display: flex;
+  flex-direction: column;
 }
 
-a {
+.flex-choice {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin-top: 4%;
+}
+
+.a-second-section {
   text-decoration: none;
+  color: black;
+  background-color: #f6f6f6;
+  align-self: center;
+  margin-bottom: 25px;
+  height: 75px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  border-radius: 24px;
+  box-shadow: 2px 2px 6px #aaa;
+  margin-left: 10px;
+}
+
+.number {
+  display: flex;
+  align-items: center;
+  background-color: #9356dc;
+  color: white;
+  cursor: pointer;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 28px;
+  font-size: 0.9em;
+  left: -10px;
+  position: relative;
+}
+
+.fas.fa-mobile-alt,
+.fas.fa-list,
+.fas.fa-store.logo_menu {
+  margin-left: 5px;
+}
+
+.fas.fa-mobile-alt,
+.fas.fa-list {
+  color: #7e7e7e;
+}
+
+.fas.fa-store.logo_menu {
+  color: #9356dc;
 }
 
 .choose-preference {
-  border-radius: 20px;
-  background-color: #f7f7f7;
-  width: 40%;
-  margin: auto;
-  margin-bottom: 5%;
   text-align: center;
-  padding: 22px;  /*Permet au border-radius d'être plus volumineux*/
-  font-weight: 600;
+  padding: 22px; /*Permet au border-radius d'être plus volumineux*/
+  font-size: medium;
 }

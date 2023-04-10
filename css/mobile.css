@@ -250,3 +250,39 @@ padding: 0 30px;
   position: relative;
 }
           
+footer {
+  background-color: #353535;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+#white-logo {
+  color: white;
+    font-family: shrikhand;
+    font-size: small;  /*taille police*/
+    font-weight: normal; /*epaisseur*/
+    font-style: italic;  /*style police*/
+}
+
+.a-footer-section {
+text-decoration: none;
+color: white;
+}
+
+.flex-footer {
+  display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.fas.fa-utensils,
+.fas.fa-hands-helping {
+font-size: xx-small;
+}
+
+.option {
+  padding: 0 20px;
+  margin-bottom: 0;
+}

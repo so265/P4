@@ -23,6 +23,52 @@ h3 {
 }
 
 /****Loading spinner****/
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  right: 0;
+  animation: 3s hidewrapper forwards;
+  background-color: rgb(156, 150, 150);
+  opacity: 0.8;
+  z-index: 100000;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#spinner {
+  width: 100px;
+  height: 100px;
+  border: 8px solid rgba(225, 225, 225, 0.3);
+  border-color: rgb(243, 89, 243) #49c0d8;
+  margin-right: 10px;
+  border-radius: 50%;
+  border-top-color: #ffffff;
+  animation: 1s spin infinite ease-in-out;
+}
+#chargement {
+  color: whitesmoke;
+  text-transform: uppercase; /*Transforme minuscule en majuscule*/
+  font-size: xx-large;
+  font-weight: 900;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes hidewrapper {
+  to {
+    visibility: hidden;    /*La boîte est invisible mais continue d'avoir un impact sur la disposition*/
+}
+}
 
 
 /****Fin loading spinner****/

@@ -190,7 +190,7 @@ margin-top: 100px;
 }
 
 .a-third-section {
-  text-decoration: none;
+  text-decoration: none;  /*enléve les traits du dessous*/
   color: black;
 }
 
@@ -201,7 +201,7 @@ margin-top: 100px;
   border-radius: 15px 15px 0 0;
   height: 230px;
   max-width: 100%;
-  object-fit: cover;
+  object-fit: cover; /*Permet à l'image de ne pas être déformée*/
 }
 
 .new {

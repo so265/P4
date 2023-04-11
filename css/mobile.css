@@ -186,7 +186,7 @@ margin: 5%;
 }
 
 
-.backround-card {
+.backround-card {  /*Fond de l'image blanc*/
   width: 90%;
     margin: 5%;
     cursor: pointer;
@@ -208,7 +208,7 @@ margin: 5%;
 .pictures {
   width: 100%;
   border-radius: 15px 15px 0 0;
-  height: 230px;
+  height: 150px;
   max-width: 100%;
   object-fit: cover; /*Permet à l'image de ne pas être déformée*/
 }

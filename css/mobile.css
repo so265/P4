@@ -71,7 +71,7 @@ main {
 #bloc-section {
   text-align: center;
   padding: 2rem;
-  background-color: #fafafa;
+  background-color: #f6f6f6;
 }
 
 .title-h1 {
@@ -175,7 +175,16 @@ main {
 #third-section {
 margin: 40px;
 margin-top: 100px;
+background-color: #f6f6f6;
+margin: 0;
+padding-top: 5%;
+padding-bottom: 9%;
 }
+
+.title-restaurant {
+margin: 5%;
+}
+
 
 .backround-card {
   width: 90%;
@@ -263,13 +272,13 @@ footer{
   font-size: small;
   font-weight: normal;
   font-style: italic;
-  padding: 0 50px;
+  padding: 0 10px;
 }
 
 .flex-info{
   display: flex;
   flex-direction: column;
-  padding: 0 50px;
+  padding: 0 10px;
 }
 
 .fas.fa-utensils,

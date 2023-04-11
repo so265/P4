@@ -25,8 +25,6 @@ h3 {
 /****Loading spinner****/
 
 
-
-
 /****Fin loading spinner****/
 
 /*****Header*****/
@@ -77,11 +75,13 @@ main {
 .title-h1 {
   font-weight: bold; /*Gras police*/
   font-size: x-large; /*Taille police*/
+  width: 90%;
 }
 
 #discover {
   font-weight: 300;
   font-size: 1.2em;
+  width: 90%;
 }
 
 .explore-restaurant {

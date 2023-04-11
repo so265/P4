@@ -250,3 +250,39 @@ padding: 0 30px;
   position: relative;
 }
           
+footer{
+  background-color: #353535;
+  color: #FFFFFF;
+  padding: 5%;
+  display: flex;  /*Je mets dispay: flex pour pouvoir le positionner en row en version desktop*/
+  flex-direction: column;
+}
+
+.white-logo{
+  font-family: 'Shrikhand';
+  font-size: small;
+  font-weight: normal;
+  font-style: italic;
+  padding: 0 50px;
+}
+
+.flex-info{
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+}
+
+.fas.fa-utensils,
+.fas.fa-hands-helping{
+  font-size: 12px;
+  padding-right: 10px;
+}
+
+.flex-info a{
+  padding: 5px 0;
+}
+
+.flex-info a:hover{
+  opacity: 80%;
+  cursor: pointer;
+}

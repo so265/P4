@@ -70,7 +70,6 @@ h3 {
 }
 }
 
-
 /****Fin loading spinner****/
 
 /*****Header*****/
@@ -126,7 +125,7 @@ main {
 
 #discover {
   font-weight: 300;
-  font-size: 1.2em;
+  font-size: medium;
   width: 90%;
 }
 
@@ -211,7 +210,7 @@ main {
 
 .choose-preference {
   text-align: center;
-  padding: 22px; /*Permet au border-radius d'être plus volumineux*/
+  padding: 50px; /*Permet au border-radius d'être plus volumineux*/
   font-size: medium;
 }
 /********Fin deuxiéme section********/
@@ -305,15 +304,27 @@ padding: 0 30px;
   position: relative;
 }
           
-footer{
+footer {
   background-color: #353535;
-  color: #FFFFFF;
   padding: 5%;
   display: flex;  /*Je mets dispay: flex pour pouvoir le positionner en row en version desktop*/
   flex-direction: column;
 }
 
-.white-logo{
+.white-logo {
+  color: #FFFFFF;
+}
+
+ul {
+  list-style-type: none;
+}
+
+footer a {
+  color: #FFFFFF;
+  text-decoration: none;    /*enléve les traits du dessous*/
+}
+
+.white-logo {
   font-family: 'Shrikhand';
   font-size: small;
   font-weight: normal;
@@ -321,23 +332,23 @@ footer{
   padding: 0 10px;
 }
 
-.flex-info{
+.flex-info {
   display: flex;
   flex-direction: column;
   padding: 0 10px;
 }
 
 .fas.fa-utensils,
-.fas.fa-hands-helping{
+.fas.fa-hands-helping  {
   font-size: 12px;
   padding-right: 10px;
 }
 
-.flex-info a{
+.flex-info a {
   padding: 5px 0;
 }
 
-.flex-info a:hover{
+.flex-info a:hover {
   opacity: 80%;
   cursor: pointer;
 }

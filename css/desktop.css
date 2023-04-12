@@ -6,11 +6,13 @@
 @media all and (min-width: 1240px) {
 
 
-
-
     .title-h1, 
     #discover {
         width: 100%;
+    }
+
+    .title-h1 {
+        margin-left: 120px
     }
 
     .explore-restaurant {
@@ -22,6 +24,8 @@
         flex-direction: row;
         width: 80%;
         justify-content: space-between;
+        margin-left: auto;   /*en utilsant auto sur margin-left et margin-right les éléments se placent au milieu*/
+        margin-right: auto;
     }
 
     /******Troiséme section, restaurants et nom des menus*******/
@@ -34,6 +38,7 @@
 
 .title-restaurant {
 margin: 15px 80px;
+margin-left: 180px
 }
 
 
@@ -86,6 +91,8 @@ footer {
     flex-direction: row;
     justify-content: space-between;
 }
+
+  
 
 }
 

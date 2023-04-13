@@ -370,6 +370,14 @@ footer a {
 }
 /***Fin header***/
 
+/*section (la seule de la page)*/
 .img-menus {
   width: 100%;
+}
+
+.flex-heart {
+  display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 0 30px;
 }

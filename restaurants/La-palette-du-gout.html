@@ -4,43 +4,71 @@
 <html lang="fr">
 
 <head>
-  <meta charset="UTF-8"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>La palette du goût</title>
-  <link rel="stylesheet" href= ../css/mobile.css> <!--Bien mettre les 2 petits points aussi non ne fonctionne pas sur gitHub-->
-  <link rel="stylesheet" href="../css/tablette.css" media="(min-width: 768px) and (max-width: 1240px)"/>
-  <link rel="stylesheet" href="../css/desktop.css" media="(min-width: 1240px)"/>
+  <link rel="stylesheet" href=../css/mobile.css>
+  <!--Bien mettre les 2 petits points aussi non ne fonctionne pas sur gitHub-->
+  <link rel="stylesheet" href="../css/tablette.css" media="(min-width: 768px) and (max-width: 1240px)" />
+  <link rel="stylesheet" href="../css/desktop.css" media="(min-width: 1240px)" />
   <script src="https://kit.fontawesome.com/2a6d7ea1c5.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <!--Header-->
+  <!--Header fléche + image du restaurant-->
   <header>
-    <div class="arrow-and-img"> <!--Fléche pour retourner sur la page d'accueil index.html-->
-      <a href="./index.html"><i class="fas fa-arrow-left"></i></a>  <!--Mettre un seul point . et la / pour que le lien vers index.html fonctionne sur gitHub-->
-    <img id="logo-ohmyfood" src="../images/logo/ohmyfood@2x.svg" alt="logo du site ohmyfood"> <!--Mettre les 2 points devant images aussi non logo ne s'affiche sur gitHub"-->
-  </div>
+    <div class="arrow-and-img">
+      <!--Fléche pour retourner sur la page d'accueil index.html-->
+      <a href="../index.html"><i class="fas fa-arrow-left"></i></a>
+      <!--Mettre un seul point . et la / pour que le lien vers index.html fonctionne sur gitHub-->
+      <img id="logo-ohmyfood" src="../images/logo/ohmyfood@2x.svg" alt="logo du site ohmyfood" />
+      <!--Mettre les 2 points devant images aussi non logo ne s'affiche sur gitHub"-->
+    </div>
   </header>
   <!--Fin header-->
 
   <main>
-  <img class="img-menus" src="../images/restaurants-images/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="photo plat restaurant la palette du gout"> <!--Bien mettre le s .. pour voir l'image-->
+    <img class="img-menus" src="../images/restaurants-images/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+      alt="photo plat restaurant la palette du gout" />
+    <!--Bien mettre le s .. pour voir l'image-->
 
+    <!--Section (1 seule section sur toute la page)-->
+    <section>
+      <div class=" flex-heart">
+        <h1>La palette du goût</h1>
+
+        <div class="heart">
+          <i class="fas fa-heart"></i>
+          <!--full-->
+          <i class="far fa-heart"></i>
+          <!--empty-->
+        </div>
+      </div>
+
+
+
+
+
+
+    </section>
   </main>
 
   <!--Footer-->
   <footer>
     <h1 class="white-logo">ohmyfood</h1>
     <ul class="flex-info">
-      <li><a href="#"><i class="fas fa-utensils"></i>Proposer un restaurant</a></li>
-      <li><a href="#"><i class="fas fa-hands-helping"></i>Devenir partenaire</a></li>
+      <li>
+        <a href="#"><i class="fas fa-utensils"></i>Proposer un restaurant</a>
+      </li>
+      <li>
+        <a href="#"><i class="fas fa-hands-helping"></i>Devenir partenaire</a>
+      </li>
       <li><a href="#">Mentions légales</a></li>
       <li><a href="mailto:service-client@gmail.com">Contact</a></li>
     </ul>
   </footer>
   <!--Fin footer-->
-
 </body>
 
 </html>

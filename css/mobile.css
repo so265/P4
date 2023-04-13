@@ -386,6 +386,8 @@ justify-content: space-between;
 margin: 0 30px;
 }
 
+/***Entrées***/
+
 .title-border-bottom {
   border-bottom: 3px solid;  /*de 390 à 393 c'est pour le brder-bottom, le trait vert en dessous de entrée*/
   width: 10%;
@@ -399,4 +401,50 @@ margin: 0 30px;
 
 .choice-menus {
   padding: 0 30px;
+}
+
+.title-border-bottom {
+  border-bottom: 3px solid; /*de 390 à 393 c'est pour le brder-bottom, le trait vert en dessous de entrée*/
+  width: 10%;
+  border-color: #99e2d0;
+  padding-bottom: 2%;
+  font-weight: lighter; /*pour entrée pour le gras de la police"*/
+  font-family: "Roboto", sans-serif;
+  font-size: 17px; /*Taille de la police d'écriture*/
+  padding: 30px 0 0 0; /*Pour décaler avec le titre la palette du goût*/
+}
+
+.choice-menus {
+  padding: 0 30px;
+}
+
+
+
+
+.flex-info-detail-menu {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px #aaa;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 25px;
+  position: relative;
+  flex-grow: 1;
+  overflow: hidden;
+  align-items: center;
+  height: 50px;
+}
+
+.title-menu {
+  font-size: small;
+  margin-left: 5px;
+}
+
+.price-check {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 190px;
 }

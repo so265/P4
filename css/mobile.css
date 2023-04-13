@@ -371,6 +371,10 @@ footer a {
 /***Fin header***/
 
 /*section (la seule de la page)*/
+section {
+  background-color:#f6f6f6;
+}
+
 .img-menus {
   width: 100%;
 }

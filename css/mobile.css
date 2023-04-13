@@ -368,4 +368,8 @@ footer a {
 .fas.fa-arrow-left {  /***Arrow fléche pour retourner sur index.html***/
   color: black;
 }
+/***Fin header***/
 
+.img-menus {
+  width: 100%;
+}

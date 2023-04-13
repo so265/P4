@@ -358,7 +358,7 @@ footer a {
 
 /*******************************Fin code css pour la page index.html**********************/
 
-/************************CSS pour les menus des quatres restaurants*************/
+/****************************************CSS pour les menus des quatres restaurants*****************************/
 /***Header***/
 .arrow-and-img {
   display: flex;
@@ -375,7 +375,7 @@ footer a {
   width: 100%;
 }
 
-.flex-heart {
+.flex-heart {  /*Alignement du titre et des coeurs*/
   display: flex;
 align-items: center;
 justify-content: space-between;

@@ -385,3 +385,18 @@ align-items: center;
 justify-content: space-between;
 margin: 0 30px;
 }
+
+.title-border-bottom {
+  border-bottom: 3px solid;  /*de 390 à 393 c'est pour le brder-bottom, le trait vert en dessous de entrée*/
+  width: 10%;
+  border-color: #99e2d0;
+  padding-bottom: 2%;
+  font-weight: lighter; /*pour entrée pour le gras de la police"*/
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;   /*Taille de la police d'écriture*/
+  padding: 30px 0 0 0; /*Pour décaler avec le titre la palette du goût*/
+}
+
+.choice-menus {
+  padding: 0 30px;
+}

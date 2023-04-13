@@ -1,40 +1,157 @@
+<!--Page A-la-francaise.html-->
+
 <!DOCTYPE html>
 <html lang="fr">
 
 <head>
-  <meta charset="UTF-8"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ohmyfood</title>
-  <link rel="stylesheet" href= ../css/mobile.css> <!--Bien mettre les 2 petits points aussi non ne fonctionne pas sur gitHub-->
-  <link rel="stylesheet" href="../css/tablette.css" media="(min-width: 768px) and (max-width: 1240px)"/>
-  <link rel="stylesheet" href="../css/desktop.css" media="(min-width: 1240px)"/>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A la française</title>
+  <link rel="stylesheet" href=../css/mobile.css>
+  <!--Bien mettre les 2 petits points aussi non ne fonctionne pas sur gitHub ../ car cette page est située dans un dossier deux niveaux au-dessus de la page « palette-du-gout.html ».-->
+  <link rel="stylesheet" href="../css/tablette.css" media="(min-width: 768px) and (max-width: 1240px)" />
+  <link rel="stylesheet" href="../css/desktop.css" media="(min-width: 1240px)" />
   <script src="https://kit.fontawesome.com/2a6d7ea1c5.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <!--Header-->
+  <!--Header fléche + image du restaurant-->
   <header>
-    <img id="logo-ohmyfood" src="../images/logo/ohmyfood@2x.svg" alt="logo du site ohmyfood"> <!--Mettre les 2 points devant image aussi non logo ne s'affiche sur gitHub"-->
+    <div class="arrow-and-img">
+      <!--Fléche pour retourner sur la page d'accueil index.html-->
+      <a href="../index.html"><i class="fas fa-arrow-left"></i></a> <!--Bien mettre ../ avant index-->
+      <!--Mettre un seul point . et la / pour que le lien vers index.html fonctionne sur gitHub-->
+      <img id="logo-ohmyfood" src="../images/logo/ohmyfood@2x.svg" alt="logo du site ohmyfood" />
+      <!--Mettre les 2 points devant images aussi non logo ne s'affiche sur gitHub"-->
+    </div>
   </header>
   <!--Fin header-->
 
   <main>
+    <img class="img-menus" src="../images/restaurants-images/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
+      alt="photo plat restaurant la palette du gout" />
+    <!--Bien mettre le ../ pour voir l'image-->
+
+    <!--Section (1 seule section sur toute la page)-->
+    <section class="name-restaurants">
+      <div class=" flex-heart">
+        <h1 class="title-bold">A la française</h1> <!--Coeur + titre en display-flex-->
+        <div class="heart">
+          <i class="fas fa-heart"></i>
+          <!--full-->
+          <i class="far fa-heart"></i>
+          <!--empty-->
+        </div>
+      </div>
+
+      
+
+<!--ENTREES--> 
+<article class="choice-menus">
+  <h3 class="title-border-bottom">ENTRÉES</h3>
+  <div class="flex-info-detail-menu">
+  <p class="title-menu"><strong> Tartare de poulpe acidulé</strong><br><span> Aux zests d'orange</span></p>
+  <div class="price-check" >
+  <p class="price"><strong>25€</strong></p>
+    <i class="fa-check fas logo_check"></i>
+    </div>
+  </div>
+
+  <div class="flex-info-detail-menu">
+    <p class="title-menu"><strong> Velouté de légumes d'antan</strong><br><span> Carotte, panais, topinambour</span></p>
+    <div class="price-check" >
+    <p class="price"><strong>25€</strong></p>
+      <i class="fa-check fas logo_check"></i>
+      </div>
+    </div>
+
+    <div class="flex-info-detail-menu">
+      <p class="title-menu"><strong> Oeuf au plat </strong><br><span>Revisitée</span></p>
+      <div class="price-check" >
+      <p class="price"><strong>25€</strong></p>
+        <i class="fa-check fas logo_check"></i>
+        </div>
+      </div>
+  </article>
+
+<!--PLATS--> 
+<article class="choice-menus">
+  <h3 class="title-border-bottom">PLATS</h3>
+  <div class="flex-info-detail-menu">
+  <p class="title-menu"><strong>Coquilles Saint-Jacques </strong><br><span> Accompagnées d'une purée de panais</span></p>
+  <div class="price-check" >
+  <p class="price"><strong>25€</strong></p>
+    <i class="fa-check fas logo_check"></i>
+    </div>
+  </div>
+
+  <div class="flex-info-detail-menu">
+    <p class="title-menu"><strong> Magret de cannard </strong><br><span>Et parmentier de pommes de terres</span></p>
+    <div class="price-check" >
+    <p class="price"><strong>25€</strong></p>
+      <i class="fa-check fas logo_check"></i>
+      </div>
+    </div>
+
+    <div class="flex-info-detail-menu">
+      <p class="title-menu"><strong> Pigeonneau d'Ille-et-Villaine </strong><br><span> Sur son lit de gnocchis aux légumes</span></p>
+      <div class="price-check" >
+      <p class="price"><strong>25€</strong></p>
+        <i class="fa-check fas logo_check"></i>
+        </div>
+      </div>
+  </article>
+
+  <!--DESSERTS--> 
+<article class="choice-menus">
+  <h3 class="title-border-bottom">DESSERTS</h3>
+  <div class="flex-info-detail-menu">
+  <p class="title-menu"><strong> Pétales de violettes glacés </strong><br><span> Et purée de noisettes</span></p>
+  <div class="price-check" >
+  <p class="price"><strong>25€</strong></p>
+    <i class="fa-check fas logo_check"></i>
+    </div>
+  </div>
+
+  <div class="flex-info-detail-menu">
+    <p class="title-menu"><strong> Fondant au chocolat</strong><br><span>Revisité</span></p>
+    <div class="price-check" >
+    <p class="price"><strong>25€</strong></p>
+      <i class="fa-check fas logo_check"></i>
+      </div>
+    </div>
+
+    <div class="flex-info-detail-menu">
+      <p class="title-menu"><strong> Millefeuille croustillant </strong><br><span> Myrtilles et pâte d'amande</span></p>
+      <div class="price-check" >
+      <p class="price"><strong>25€</strong></p>
+        <i class="fa-check fas logo_check"></i>
+        </div>
+      </div>
+  </article>
+
+  <nav class="explore-restaurant" id="margin-commander">Commander</nav>
   
+
+    </section>
   </main>
 
   <!--Footer-->
   <footer>
     <h1 class="white-logo">ohmyfood</h1>
     <ul class="flex-info">
-      <li><a href="#"><i class="fas fa-utensils"></i>Proposer un restaurant</a></li>
-      <li><a href="#"><i class="fas fa-hands-helping"></i>Devenir partenaire</a></li>
+      <li>
+        <a href="#"><i class="fas fa-utensils"></i>Proposer un restaurant</a>
+      </li>
+      <li>
+        <a href="#"><i class="fas fa-hands-helping"></i>Devenir partenaire</a>
+      </li>
       <li><a href="#">Mentions légales</a></li>
       <li><a href="mailto:service-client@gmail.com">Contact</a></li>
     </ul>
   </footer>
   <!--Fin footer-->
-
 </body>
 
 </html>

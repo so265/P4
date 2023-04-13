@@ -79,6 +79,8 @@ header {
   box-shadow: 0 0 0.5rem rgb(0 0 0 / 25%);
 }
 
+
+
 #logo-ohmyfood {
   display: block;
   margin: auto; /*Ainsi se place au milieu avec display block*/
@@ -353,3 +355,17 @@ footer a {
   opacity: 80%;
   cursor: pointer;
 }
+
+/*******************************Fin code css pour la page index.html**********************/
+
+/************************CSS pour les menus des quatres restaurants*************/
+/***Header***/
+.arrow-and-img {
+  display: flex;
+  align-items: center;
+}
+
+.fas.fa-arrow-left {  /***Arrow fléche pour retourner sur index.html***/
+  color: black;
+}
+

@@ -6,13 +6,18 @@
 @media all and (min-width: 1240px) {
 
 
+  #reservez {
+    margin-left: 6px;
+    font-size: xx-large;
+  }
+
     .title-h1, 
     #discover {
         width: 100%;
     }
 
     .title-h1 {
-        margin-left: 120px
+        margin-left: 135px
     }
 
     .explore-restaurant {
@@ -30,6 +35,53 @@
 
     /******Troiséme section, restaurants et nom des menus*******/
 
+    /*À terme, les visiteurs pourront sauvegarder leurs menus préférés, remplissage progressif du coeur au survol de la souris*/
+.fas.fa-heart {
+    /*full*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /*opacity 0, on ne voit plus le remplissage noir.*/
+    z-index: 1;/*passe en dessous du coeur vide*/
+  }
+  
+  .heart:hover .far.fa-heart {
+    /*empty*/
+    animation-name: coeurFar;  /*je donne un nom à l'animation*/
+    animation: coeurFar 3000ms; /*j'utilise le nom donné et lui met un temps*/
+  }
+
+  .heart:hover .fas.fa-heart:hover {
+    /*full*/
+    animation-name: coeur;  /*je donne un nom à l'animation*/
+    animation: coeur 3000ms;
+    opacity: 1;  /*opacity 1 on le voit*/
+    background: -webkit-linear-gradient(45deg, #FF79DA, #9356DC); /*couleur qui remplace le noir du coeur plein*/
+    background-clip: border-box; /*Le remlissage du coeur s'étend sur ses bordures*/
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 1; /*passe en dessous du coeur vide*/
+  }
+  
+  @keyframes coeur {   /*full*/  /*** Permet de définir les étapes qui composent la séquence d'une animation CSS.***/
+    0% {
+      opacity: 0;  /*transparent*/   
+    }
+  
+    100% {
+      opacity: 1;   /*opaque*/
+    }
+  }
+  @keyframes coeurFar {     /*empty*/ /*Ansi les contours noirs du coueur vide disparaissent, au départ avant survol sont visibles puis au survol disparaissent*/
+    0% {
+      opacity: 1; /*Au départ, o, voit les contours noirs*/
+    }
+    100% {
+      opacity: 0;  /*on ne voit plus ses contours noirs*/
+    }
+  }
+  /*Fin remplissage coeur*/
+
 
 #third-section {
    padding-top: 1px;
@@ -38,13 +90,14 @@
 
 .title-restaurant {
 margin: 15px 80px;
-margin-left: 180px
+margin-left: 210px
 }
 
 
 .restaurants {
     display: flex;
     flex-wrap: wrap;
+    padding: 0 140px;
 }
 
 
@@ -83,14 +136,29 @@ margin-left: 180px
 
 /******************Footer*************/
 footer {
-    flex-direction: row;
     padding: 2%;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.footer-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.white-logo {
+  margin: unset;
+  margin: 0 50px;
 }
 
 .flex-info {
     flex-direction: row;
-    justify-content: space-between;
+   
+    column-gap: 50px;
+    margin: unset;
+    
 }
+
 
   
 

@@ -53,13 +53,13 @@ h3 {
   border-top-color: #ffffff;
   animation: 1s spin infinite ease-in-out;
 }
-#chargement {
+#chargement {  /*Le mot loading s'affiche lors de l'apparition du loadding spinner*/
   color: whitesmoke;
   text-transform: uppercase; /*Transforme minuscule en majuscule*/
   font-size: xx-large;
   font-weight: 900;
 }
-@keyframes spin {
+@keyframes spin {   /*** Permet de définir les étapes qui composent la séquence d'une animation CSS.***/
   to {
     transform: rotate(360deg);
   }
@@ -78,8 +78,6 @@ header {
   padding: 1rem;
   box-shadow: 0 0 0.5rem rgb(0 0 0 / 25%);
 }
-
-
 
 #logo-ohmyfood {
   display: block;
@@ -100,7 +98,7 @@ main {
   justify-content: center;
   cursor: pointer;
   width: 100%;
-  background-color: #f3f3f3;
+  background-color: #eaeaea;
   border-style: none;
   align-items: center;
 }
@@ -128,7 +126,7 @@ main {
 
 #discover {
   font-weight: 300;
-  font-size: medium;
+  font-size: 14px;
   width: 90%;
 }
 
@@ -142,6 +140,12 @@ main {
   margin: auto; /*Se centre au milieu de la page*/
   padding: 15px;
   cursor: pointer;
+  font-size: 14px;
+}
+
+.explore-restaurant:hover {
+  background: #d979ff; /*** !!!!Animation CSS, au hover, couleur qui s'éclairsit, l'ombre plus visible!!!!*/
+  box-shadow: 0px 5px 10px 3px #c6c6c6;
 }
 
 /***************************************Deuxiéme section************************************/
@@ -214,7 +218,7 @@ main {
 .choose-preference {
   text-align: center;
   padding: 50px; /*Permet au border-radius d'être plus volumineux*/
-  font-size: medium;
+  font-size: 14px;
 }
 /********Fin deuxiéme section********/
 
@@ -374,7 +378,7 @@ footer a {
 .name-restaurants {                        /***section de la page***/
   background-color:#f6f6f6;
   background-color: #f6f6f6;
-    margin-top: -30px;
+    bottom: 20px;   /*permet de faire remonter l choix des menus sur l'image*/
     border-radius: 40px 40px 0 0;
     position: relative;
     padding: 0 20px;
@@ -396,6 +400,7 @@ margin: 0 30px;
 .title-bold {
   font-weight: bolder;
   font-family: 'Shrikhand';
+  font-size: 23px;
 }
 
 /***Entrées***/
@@ -462,3 +467,5 @@ margin: 0 30px;
   margin-top: 40px;
   margin-bottom: 40px;
 }
+
+

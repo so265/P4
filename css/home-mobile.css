@@ -120,7 +120,7 @@ main {
 
 .title-h1 {
   font-weight: bold; /*Gras police*/
-  font-size: x-large; /*Taille police*/
+  font-size: 24px; /*Taille police*/
   width: 90%;
 }
 
@@ -203,7 +203,7 @@ main {
 .fas.fa-mobile-alt,
 .fas.fa-list,
 .fas.fa-store.logo_menu {
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .fas.fa-mobile-alt,
@@ -217,7 +217,7 @@ main {
 
 .choose-preference {
   text-align: center;
-  padding: 50px; /*Permet au border-radius d'être plus volumineux*/
+  padding: 22px; /*Permet au border-radius d'être plus volumineux*/
   font-size: 14px;
 }
 /********Fin deuxiéme section********/
@@ -281,11 +281,12 @@ margin: 5%;
 display: flex;    
 align-items: center;
 justify-content: space-between;
-padding: 0 30px;
+padding: 0 10px;
 }
 
 .title {
   margin-bottom: 0;
+  margin-top: 5%;
   font-weight: bold;
 }
 
@@ -297,7 +298,7 @@ padding: 0 30px;
   font-size: 30px;
   position: relative;
   cursor: pointer;
-  height: 17px; /*pour s'aligner avec le nom du restaurant*/
+  height: 60px; /*pour s'aligner avec le nom du restaurant*/
 }
 
 .fas.fa-heart {   /*full*//***Le remplissage noire est en display none et est suppeposé sur le heart empty*/

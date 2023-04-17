@@ -146,7 +146,6 @@ footer {
 
 .flex-info {
   flex-direction: row;
-
   column-gap: 50px;
   margin: unset;
 }

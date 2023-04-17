@@ -17,26 +17,5 @@
     margin-right: auto;
   }
 
-  footer {
-    padding: 2%;
-    flex-direction: row;
-    justify-content: flex-end;
-  }
-
-  .footer-reverse {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-
-  .white-logo {
-    margin: unset;
-    margin: 0 50px;
-  }
-
-  .flex-info {
-    flex-direction: row;
-
-    column-gap: 50px;
-    margin: unset;
-  }
+  
 }

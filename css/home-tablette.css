@@ -2,8 +2,17 @@
 /*************Version tablette/feuille de style homme-tablette.css*****************/
 
 @media all and (min-width: 768px) and (max-width: 1240px) {
+
+  #reservez {
+   font-size: 20px;
+}
+
+  #discover {
+    font-size: 15px;
+}
+
   .backround-card {
-    width: 70%;
+    width: 55%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -12,7 +21,7 @@
   /****Identique à la maquette version desktop****/
 
   .flex-choice {
-    width: 70%;
+    width: 55%;
     margin-left: auto;
     margin-right: auto;
   }

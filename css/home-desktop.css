@@ -8,8 +8,17 @@
 
   #reservez {
     margin-left: 6px;
-    font-size: xx-large;
+    font-size: 40px;
   }
+
+  #discover {
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.explore-restaurant {
+  font-size: 16px;
+}
 
     .title-h1, 
     #discover {
@@ -17,7 +26,9 @@
     }
 
     .title-h1 {
-        margin-left: 135px
+        margin-left: 135px;
+        font-size: 24px; 
+        font-weight:  700;
     }
 
     .explore-restaurant {

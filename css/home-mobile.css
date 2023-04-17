@@ -116,18 +116,19 @@ main {
   text-align: center;
   padding: 2rem;
   background-color: #f6f6f6;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .title-h1 {
   font-weight: bold; /*Gras police*/
   font-size: 24px; /*Taille police*/
-  width: 90%;
+  
 }
 
 #discover {
   font-weight: 300;
-  font-size: 14px;
-  width: 90%;
+  font-size: 16.5px;
 }
 
 .explore-restaurant {
@@ -141,6 +142,7 @@ main {
   padding: 15px;
   cursor: pointer;
   font-size: 14px;
+  margin-bottom: 5%;
 }
 
 .explore-restaurant:hover {
@@ -153,8 +155,8 @@ main {
 #second-section {
   margin: 5%;
   font-weight: bold;
-  padding-top: 20px;
-  margin-bottom: 20px;
+  padding-top: 6px;
+  margin-bottom: 40px;
 }
 
 #choice {
@@ -273,8 +275,9 @@ margin: 5%;
     position: absolute;
     background-color: #99e2d0;
     color: #2c9c81;
-    font-size: 1rem;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: roboto sans-serif;
 }
 
 .flex-menu {    /*Pour que les coeurs se trouvent à coté à droite du  titre et du paragraphe(qui eux, sont l'un en dessous de l'autre)*/

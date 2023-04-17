@@ -33,7 +33,7 @@
   }
 
   #h1-margin {
-    margin-left: auto;
+    margin-left: 80px;
   }
 
   .title-h1 {
@@ -151,8 +151,7 @@
   }
 
   .flex-choice {
-    /*semble en trop*/
-    width: 323px;
+    width: 30%;
     gap: 25px;
   }
 

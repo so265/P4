@@ -313,8 +313,8 @@ padding: 0 10px;
   display: none;
 }
 
-.far.fa-heart {   /*empty*/
-  position: relative;
+.far.fa-heart.fa-heart {   /*empty*/
+  position: relative; 
 }
           
 footer {

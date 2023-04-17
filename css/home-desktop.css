@@ -1,14 +1,14 @@
 /*******************************************BREAKPOINTS************************************************/
 /*********version desktop feuille de style home-desktop.css*************/
 
-/**************************** @media 1240px *************************/ 
+/**************************** @media 1240px *************************/
 
 @media all and (min-width: 1240px) {
 
   #Paris {
-     font-weight: 500;
-     font-size: 16px;
-     line-height: 19px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
   }
 
   #reservez {
@@ -19,172 +19,215 @@
   #discover {
     font-size: 18px;
     margin-bottom: 35px;
-}
-
-.explore-restaurant {
-  font-size: 16px;
-  margin-bottom: 5px
-}
-
-    .title-h1, 
-    #discover {
-        width: 100%;
-    }
-
-    .title-h1 {
-       font-size: 24px; 
-        font-weight:  700;
-    }
-
-    .explore-restaurant {
-    width: 15%;
-    }
-
-    #second-section {
-      margin: 0%;
-      padding: 50px 180px;
   }
 
-    #choice {
-        display: flex;
-        flex-direction: row;
-        gap: 25px;
-        margin-left: auto;   /*en utilsant auto sur margin-left et margin-right les éléments se placent au milieu*/
-        margin-right: auto;
-        
-    }
+  .explore-restaurant {
+    font-size: 16px;
+    margin-bottom: 5px
+  }
 
-    /******Troiséme section, restaurants et nom des menus*******/
+  .title-h1,
+  #discover {
+    width: 100%;
+  }
 
-    /*À terme, les visiteurs pourront sauvegarder leurs menus préférés, remplissage progressif du coeur au survol de la souris*/
-.fas.fa-heart {
+#h1-margin {
+  margin-left: auto;
+}
+
+  .title-h1 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .explore-restaurant {
+    width: 15%;
+  }
+
+  #second-section {
+    display: flex;
+    margin: 0%;
+    padding: 50px 150px;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    padding: 50px 150px;
+
+  }
+
+  #choice {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center; /*avec ces 2 proprités aligns items et justify-content, les éléments se placent au milieu de la page*/
+    justify-content: center;
+    width: 85%;
+}
+
+  /******Troiséme section, restaurants et nom des menus*******/
+
+  /*À terme, les visiteurs pourront sauvegarder leurs menus préférés, remplissage progressif du coeur au survol de la souris*/
+  .fas.fa-heart {
     /*full*/
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 0; /*opacity 0, on ne voit plus le remplissage noir.*/
-    z-index: 1;/*passe en dessous du coeur vide*/
+    opacity: 0;
+    /*opacity 0, on ne voit plus le remplissage noir.*/
+    z-index: 1;
+    /*passe en dessous du coeur vide*/
   }
-  
+
   .heart:hover .far.fa-heart {
     /*empty*/
-    animation-name: coeurFar;  /*je donne un nom à l'animation*/
-    animation: coeurFar 3000ms; /*j'utilise le nom donné et lui met un temps*/
+    animation-name: coeurFar;
+    /*je donne un nom à l'animation*/
+    animation: coeurFar 3000ms;
+    /*j'utilise le nom donné et lui met un temps*/
   }
 
   .heart:hover .fas.fa-heart:hover {
     /*full*/
-    animation-name: coeur;  /*je donne un nom à l'animation*/
+    animation-name: coeur;
+    /*je donne un nom à l'animation*/
     animation: coeur 3000ms;
-    opacity: 1;  /*opacity 1 on le voit*/
-    background: -webkit-linear-gradient(45deg, #FF79DA, #9356DC); /*couleur qui remplace le noir du coeur plein*/
-    background-clip: border-box; /*Le remlissage du coeur s'étend sur ses bordures*/
+    opacity: 1;
+    /*opacity 1 on le voit*/
+    background: -webkit-linear-gradient(45deg, #FF79DA, #9356DC);
+    /*couleur qui remplace le noir du coeur plein*/
+    background-clip: border-box;
+    /*Le remlissage du coeur s'étend sur ses bordures*/
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    z-index: 1; /*passe en dessous du coeur vide*/
+    z-index: 1;
+    /*passe en dessous du coeur vide*/
   }
-  
-  @keyframes coeur {   /*full*/  /*** Permet de définir les étapes qui composent la séquence d'une animation CSS.***/
+
+  @keyframes coeur {
+
+    /*full*/
+    /*** Permet de définir les étapes qui composent la séquence d'une animation CSS.***/
     0% {
-      opacity: 0;  /*transparent*/   
+      opacity: 0;
+      /*transparent*/
     }
-  
+
     100% {
-      opacity: 1;   /*opaque*/
+      opacity: 1;
+      /*opaque*/
     }
   }
-  @keyframes coeurFar {     /*empty*/ /*Ansi les contours noirs du coueur vide disparaissent, au départ avant survol sont visibles puis au survol disparaissent*/
+
+  @keyframes coeurFar {
+
+    /*empty*/
+    /*Ansi les contours noirs du coueur vide disparaissent, au départ avant survol sont visibles puis au survol disparaissent*/
     0% {
-      opacity: 1; /*Au départ, o, voit les contours noirs*/
+      opacity: 1;
+      /*Au départ, o, voit les contours noirs*/
     }
+
     100% {
-      opacity: 0;  /*on ne voit plus ses contours noirs*/
+      opacity: 0;
+      /*on ne voit plus ses contours noirs*/
     }
   }
+
   /*Fin remplissage coeur*/
 
 
-#third-section {
-   padding-top: 1px;
-   padding-bottom: 0%;
-}
+  #third-section {
+    padding-top: 1px;
+    padding-bottom: 0%;
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-.title-restaurant {
-margin: 15px 80px;
-margin-left: 210px;
-font-size:  24px;
-font-weight: 700;
-}
+  .title-restaurant {
+    margin: 15px 80px;
+    margin-left: 210px;
+    font-size: 24px;
+    font-weight: 700;
+    width: 90%;
+  }
 
-.flex-choice {
- width: 323px;
- gap: 25px;
-}
+  .flex-choice {  /*semble en trop*/
+    width: 323px;
+    gap: 25px;
+  }
 
-.restaurants {
+  
+
+  .restaurants {
     display: flex;
     flex-wrap: wrap;
     padding: 0 140px;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.title {
+  font-size: 18px;
 }
 
+  .backround-card {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+  }
 
-    .backround-card {
-        width: 35%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 5%;
-    }
+  .pictures {
+    width: 100%;
 
-    .pictures {
-        width: 100%;
-        
-    }
+  }
 
-    .new {
-        position: relative;
-        right: 0;
-    }
+  .new {
+    position: relative;
+    right: 0;
+  }
 
-   
-.fas.fa-heart {
+
+  .fas.fa-heart {
     display: flex;
     justify-content: center;
     align-items: center;
     opacity: 0;
     z-index: 1;
+  }
+
+  footer {
+    padding: 2%;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .footer-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .white-logo {
+    margin: unset;
+    margin: 0 50px;
+  }
+
+  .flex-info {
+    flex-direction: row;
+    column-gap: 50px;
+    margin: unset;
+  }
+
+
+
+
+
+
+
+
+
+
+
 }
-
-footer {
-  padding: 2%;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-
-.footer-reverse {
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-.white-logo {
-  margin: unset;
-  margin: 0 50px;
-}
-
-.flex-info {
-  flex-direction: row;
-  column-gap: 50px;
-  margin: unset;
-}
-
-
-
-
-
-
-
-
-
-  
-
-}
-

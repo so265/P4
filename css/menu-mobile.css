@@ -70,6 +70,11 @@ margin: 0 5px;
 
 /***Menus-Entrées***Plats***Desserts***/
 
+.entrees,
+.plats {
+  margin-bottom: 12px;
+}
+
 .title-border-bottom {
   border-bottom: 3px solid;  /*de 390 à 393 c'est pour le brder-bottom, le trait vert en dessous de entrée*/
   width: 10%;
@@ -86,10 +91,10 @@ margin: 0 5px;
   display: flex;
   justify-content: space-between;
   border-radius: 24px;
-  box-shadow: 2px 2px 6px #aaa;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
   width: 100%;
   cursor: pointer;
-  margin-top: 25px;
+  margin-top: 15px;
   position: relative;
   flex-grow: 1; 
   overflow: hidden; /*Est une propriété raccourcie qui définit comment gérer le dépassement du contenu d'un élément dans son bloc*/
@@ -105,7 +110,7 @@ margin: 0 5px;
 }
 
 .title-menu {
-  margin-bottom: 0;
+  margin-bottom: 2%;
   text-overflow: ellipsis;
   overflow: hidden;
   font-size: 18px;
@@ -124,8 +129,8 @@ margin: 0 5px;
 }
 
 .price {
-  padding-right: 18px;
-  padding-top: 30px;
+  padding-right: 15px;
+  padding-top: 23px;
   transition: ease-out 2s;
 }
 
@@ -135,7 +140,7 @@ margin: 0 5px;
   color: white;
   font-weight: bold;
   border: none;
-  border-radius: 0 12px 12px 0;
+  border-radius: 15px;
   /* padding: 0 1.25rem;*/
   font-size: 1rem;
   cursor: pointer;
@@ -232,7 +237,7 @@ margin: 0 5px;
 
 #margin-commander {  /**Est identique au bouton violet de la la page d'accueil, css L135, j'ai ajouté cet id pour les margin*/
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 

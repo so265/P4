@@ -339,7 +339,7 @@ footer a {
 .white-logo {
   font-family: 'Shrikhand';
   font-size: 18px;
-  font-weight: normal;
+  font-weight: 400;
   font-style: italic;
   padding: 0 10px;
 }
@@ -348,6 +348,7 @@ footer a {
   display: flex;
   flex-direction: column;
   padding: 0 10px;
+  margin-top: 5px
 }
 
 .fas.fa-utensils,

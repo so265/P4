@@ -128,18 +128,10 @@ margin-left: 210px
     z-index: 1;
 }
 
-
-
-
-
-
-
-
-/******************Footer*************/
 footer {
-    padding: 2%;
-    flex-direction: row;
-    justify-content: flex-end;
+  padding: 2%;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 .footer-reverse {
@@ -153,12 +145,18 @@ footer {
 }
 
 .flex-info {
-    flex-direction: row;
-   
-    column-gap: 50px;
-    margin: unset;
-    
+  flex-direction: row;
+
+  column-gap: 50px;
+  margin: unset;
 }
+
+
+
+
+
+
+
 
 
   

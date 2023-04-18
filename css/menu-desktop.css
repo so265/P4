@@ -1,7 +1,32 @@
 /*******************************************BREAKPOINTS************************************************/
 /*********version desktop feuille de style menu-desktop.css*************/
 
-/**************************** @media 1240px *************************/ 
+/**************************** @media 1240px *************************/
 
 @media all and (min-width: 1240px) {
+    .name-restaurants {
+        width: 1055px;
+        margin: auto;
+    }
+
+    .title-bold {
+        margin-left: 380px;
+        font-size: 28px;
+    }
+
+    .heart {
+        margin-right: 350px;
+        font-size: 22px;
+        height: 1px;
+    }
+
+    .choice-menu {
+        width: 634px;
+    }
+
+    .all-menu {
+        /*Pour centrer tous les menus*/
+        margin-left: 200px;
+        margin-right: 200px;
+    }
 }

@@ -103,11 +103,7 @@ margin: 0 5px;
 }
 /*Fin apparition progressive des pages*/
 
-
-
-
 /***Menus-Entrées***Plats***Desserts***/
-
 .entrees,
 .plats {
   margin-bottom: 12px;
@@ -245,37 +241,10 @@ margin: 0 5px;
   transform: rotate(360deg);
   transition: transform 0.5s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*Fin coches coulissantes*/
 
 #margin-commander {  /**Est identique au bouton violet de la la page d'accueil, css L135, j'ai ajouté cet id pour les margin*/
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 

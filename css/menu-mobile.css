@@ -68,6 +68,44 @@ margin: 0 5px;
   margin-bottom: 0; /*pour enlever marge entre titre et entrée*/
 }
 
+
+/* Menus des quatres restaurants*/
+
+/*Apparition progressive des pages*/
+
+.entrees,
+.plats,
+.desserts {
+  opacity: 0;
+  animation: 1s linear forwards slide;
+}
+.entrees {
+  animation-delay: 1s;  /*delai d'attente avant de demarrer une animation*/
+}
+
+.plats {
+  animation-delay: 2s;
+}
+
+.desserts {
+  animation-delay: 3s;
+}
+
+@keyframes slide {
+  from {
+    opacity: 0;
+    transform: translateY(30px);      /*permet de deplacer un element verticalement*/
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+/*Fin apparition progressive des pages*/
+
+
+
+
 /***Menus-Entrées***Plats***Desserts***/
 
 .entrees,

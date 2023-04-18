@@ -32,7 +32,7 @@ h3 {
   left: 0;
   right: 0;
   animation: 3s hidewrapper forwards;
-  background-color: rgb(156, 150, 150);
+  background-color:#89C8FA;
   opacity: 0.8;
   z-index: 100000;
   color: #ffffff;
@@ -40,7 +40,6 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  display: none;
 }
 
 #spinner {

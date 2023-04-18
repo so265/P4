@@ -32,7 +32,7 @@ h3 {
   left: 0;
   right: 0;
   animation: 3s hidewrapper forwards;
-  background-color:rgb(156, 150, 150);;
+  background-color:rgb(189, 185, 185);
   opacity: 0.8;
   z-index: 100000;
   color: #ffffff;
@@ -318,6 +318,7 @@ footer {
   padding: 5%;
   display: flex;  /*Je mets dispay: flex pour pouvoir le positionner en row en version desktop*/
   flex-direction: column;
+  margin-top: 10px;
 }
 
 .white-logo {

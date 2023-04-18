@@ -4,20 +4,20 @@
 <html lang="fr">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>La palette du goût</title>
   <link rel="stylesheet" href=../css/home.mobile.css>
   <!--Bien mettre les 2 petits points aussi non ne fonctionne pas sur gitHub ../ car cette page est située dans un dossier deux niveaux au-dessus de la page « palette-du-gout.html ».-->
   <link rel="stylesheet" href=../css/home-mobile.css>
   <!--Bien mettre les 2 petits points aussi non ne fonctionne pas sur gitHub ../ car cette page est située dans un dossier deux niveaux au-dessus de la page « palette-du-gout.html ».-->
-  <link rel="stylesheet" href="../css/home-tablette.css" media="(min-width: 768px) and (max-width: 1240px)" />
-  <link rel="stylesheet" href="../css/home-desktop.css" media="(min-width: 1240px)" />
+  <link rel="stylesheet" href="../css/home-tablette.css" media="(min-width: 768px) and (max-width: 1240px)">
+  <link rel="stylesheet" href="../css/home-desktop.css" media="(min-width: 1240px)">
   <link rel="stylesheet" href=../css/menu-mobile.css>
   <!--Bien mettre les 2 petits points aussi non ne fonctionne pas sur gitHub ../ car cette page est située dans un dossier deux niveaux au-dessus de la page « palette-du-gout.html ».-->
-  <link rel="stylesheet" href="../css/menu-tablette.css" media="(min-width: 768px) and (max-width: 1240px)" />
-  <link rel="stylesheet" href="../css/menu-desktop.css" media="(min-width: 1240px)" />
+  <link rel="stylesheet" href="../css/menu-tablette.css" media="(min-width: 768px) and (max-width: 1240px)">
+  <link rel="stylesheet" href="../css/menu-desktop.css" media="(min-width: 1240px)">
   <script src="https://kit.fontawesome.com/2a6d7ea1c5.js" crossorigin="anonymous"></script>
 </head>
 
@@ -28,7 +28,7 @@
       <!--Fléche pour retourner sur la page d'accueil index.html-->
       <a href="../index.html"><i class="fas fa-arrow-left"></i></a> <!--Bien mettre ../ avant index-->
       <!--Mettre un seul point . et la / pour que le lien vers index.html fonctionne sur gitHub-->
-      <img id="logo-ohmyfood" src="../images/logo/ohmyfood@2x.svg" alt="logo du site ohmyfood" />
+      <img id="logo-ohmyfood" src="../images/logo/ohmyfood@2x.svg" alt="logo du site ohmyfood">
       <!--Mettre les 2 points devant images aussi non logo ne s'affiche sur gitHub"-->
     </div>
   </header>
@@ -36,13 +36,13 @@
 
   <main>
     <img class="img-menus" src="../images/restaurants-images/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
-      alt="photo plat restaurant la palette du gout" />
+      alt="photo plat restaurant la palette du gout">
     <!--Bien mettre le ../ pour voir l'image-->
 
     <!--Section (1 seule section sur toute la page)-->
     <section class="name-restaurants">
       <div class=" flex-heart">
-        <h1 class="title-bold">La palette du goût</h1> <!--Coeur + titre en display-flex-->
+        <h2 class="title-bold">La palette du goût</h2> <!--Coeur + titre en display-flex-->
         <div class="heart">
           <i class="fas fa-heart"></i>
           <!--full-->
@@ -53,10 +53,10 @@
 
       <div class="all-menu"> <!--Cette div pour centrer les menus en version menu desktop-->
         <!--ENTREES-->
-        <div class="entrees">
+        <article class="entrees">
           <h2 class="title-border-bottom">ENTRÉES</h2>
 
-          <article class="choice-menu">
+          <div class="choice-menu">
             <div class="name-menu">
               <h3 class="title-menu">Fricassée d'escargot</h3>
               <p class="small-title-menu">Au piment d'espelette</p>
@@ -67,9 +67,9 @@
             <div class="check">
               <i class="fa-check fas logo_check"></i>
             </div>
-          </article>
+          </div>
 
-          <article class="choice-menu">
+          <div class="choice-menu">
             <div class="name-menu">
               <h3 class="title-menu">Foie gras de canard mi-cuit</h3>
               <p class="small-title-menu">Et ses copeaux de truffe noire</p>
@@ -80,10 +80,9 @@
             <div class="check">
               <i class="fa-check fas logo_check"></i>
             </div>
-          </article>
+          </div>
 
-
-          <article class="choice-menu">
+          <div class="choice-menu">
             <div class="name-menu">
               <h3 class="title-menu">Oeuf au plat</h3>
               <p class="small-title-menu">Assaisoné à la truffe sur lit de caviar</p>
@@ -94,14 +93,14 @@
             <div class="check">
               <i class="fa-check fas logo_check"></i>
             </div>
-          </article>
-        </div>
+          </div>
+        </article>
 
         <!--PLATS-->
-        <div class="plats">
+        <article class="plats">
           <h2 class="title-border-bottom">PLATS</h2>
 
-          <article class="choice-menu">
+          <div class="choice-menu">
             <div class="name-menu">
               <h3 class="title-menu">Filet de boeuf aux herbes</h3>
               <p class="small-title-menu">Accompagné de sa ribambelle de légumes</p>
@@ -112,9 +111,9 @@
             <div class="check">
               <i class="fa-check fas logo_check"></i>
             </div>
-          </article>
+          </div>
 
-          <article class="choice-menu">
+          <div class="choice-menu">
             <div class="name-menu">
               <h3 class="title-menu">Parmentier de queue de boeuf</h3>
               <p class="small-title-menu">A la truffe noire sur sa purée de panais</p>
@@ -125,9 +124,9 @@
             <div class="check">
               <i class="fa-check fas logo_check"></i>
             </div>
-          </article>
+          </div>
 
-          <artile class="choice-menu">
+          <div class="choice-menu">
             <div class="name-menu">
               <h3 class="title-menu">Filet de Turbot</h3>
               <p class="small-title-menu">Aux agrumes</p>
@@ -138,14 +137,14 @@
             <div class="check">
               <i class="fa-check fas logo_check"></i>
             </div>
-            </article>
-        </div>
+          </div>
+        </article>
 
         <!--DESSERTS-->
-        <div class="desserts">
+        <article class="desserts">
           <h2 class="title-border-bottom">DESSERTS</h2>
 
-          <article class="choice-menu">
+          <div class="choice-menu">
             <div class="name-menu">
               <h3 class="title-menu">Paris-brest</h3>
               <p class="small-title-menu">Revisité</p>
@@ -156,9 +155,9 @@
             <div class="check">
               <i class="fa-check fas logo_check"></i>
             </div>
-          </article>
+          </div>
 
-          <article class="choice-menu">
+          <div class="choice-menu">
             <div class="name-menu">
               <h3 class="title-menu">Macaron au chocolat d'exception</h3>
               <p class="small-title-menu">Et glace à la vanille de madagascar</p>
@@ -169,9 +168,9 @@
             <div class="check">
               <i class="fa-check fas logo_check"></i>
             </div>
-          </article>
+          </div>
 
-          <article class="choice-menu">
+          <div class="choice-menu">
             <div class="name-menu">
               <h3 class="title-menu">Mousse au chocolat</h3>
               <p class="small-title-menu">Au piment d'espelette et à la truffe noire</p>
@@ -182,8 +181,8 @@
             <div class="check">
               <i class="fa-check fas logo_check"></i>
             </div>
-          </article>
-        </div>
+          </div>
+        </article>
 
         <nav class="explore-restaurant" id="margin-commander">Commander</nav>
       </div>

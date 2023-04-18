@@ -3,6 +3,11 @@
 
 @media all and (min-width: 768px) and (max-width: 1240px) {
 
+header,
+footer {
+    background-color:#d7f1eb;;
+}
+
 .choice-menu {
 background-color:#ebe6f0;
 }
@@ -18,11 +23,8 @@ background-color:#ebe6f0;
     color: black;
 }
 
-footer {
-    background-color:#d7f1eb;;
-}
-
 footer a {
     color: black;
 }
+
 }

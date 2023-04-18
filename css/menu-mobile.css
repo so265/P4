@@ -1,12 +1,15 @@
 /***Feuille de style menu-mobile.css projet 4 Ohmyfood Mobile First***/
 /***J'intégre d'abord la version mobile puis tablette puis desktop***/
 
-@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap"); /***On peut mettre ce lien de google font (police d'écriture) soit ds le CSS soit ds le html***/
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+/***On peut mettre ce lien de google font (police d'écriture) soit ds le CSS soit ds le html***/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
 
 html {
-  text-size-adjust: 100%; /* Determine ajustement taille police par rapport à sa taille initiale*/
-  font-size: 100%; /*Tous mes éléments utilisant l’unité de mesure REM, auront une taille relative à cette taille (100% dans le cas présent)*/
+  text-size-adjust: 100%;
+  /* Determine ajustement taille police par rapport à sa taille initiale*/
+  font-size: 100%;
+  /*Tous mes éléments utilisant l’unité de mesure REM, auront une taille relative à cette taille (100% dans le cas présent)*/
 }
 
 body,
@@ -29,19 +32,21 @@ h3 {
   align-items: center;
 }
 
-.fas.fa-arrow-left {  /***Arrow fléche pour retourner sur index.html***/
+.fas.fa-arrow-left {
+  /***Arrow fléche pour retourner sur index.html***/
   color: black;
 }
+
 /***Fin header***/
 
 /*section (la seule de la page)*/
-.name-restaurants {                        /***section de la page***/
-  background-color:#f6f6f6;
+.name-restaurants {
+  /***section de la page***/
   background-color: #f6f6f6;
-    bottom: 20px;   /*permet de faire remonter l choix des menus sur l'image*/
-    border-radius: 40px 40px 0 0;
-    position: relative;
-    padding: 0 8px;
+  /*permet de faire remonter l choix des menus sur l'image*/
+  border-radius: 40px 40px 0 0;
+  position: relative;
+  padding: 0 8px;
 }
 
 .img-menus {
@@ -50,11 +55,12 @@ h3 {
   object-fit: cover;
 }
 
-.flex-heart {  /*Alignement du titre et des coeurs*/
+.flex-heart {
+  /*Alignement du titre et des coeurs*/
   display: flex;
-align-items: center;
-justify-content: space-between;
-margin: 0 5px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 5px;
 }
 
 .heart {
@@ -65,7 +71,8 @@ margin: 0 5px;
   font-weight: bolder;
   font-family: 'Shrikhand';
   font-size: 28px;
-  margin-bottom: 0; /*pour enlever marge entre titre et entrée*/
+  margin-bottom: 0;
+  /*pour enlever marge entre titre et entrée*/
 }
 
 
@@ -79,8 +86,10 @@ margin: 0 5px;
   opacity: 0;
   animation: 1s linear forwards slide;
 }
+
 .entrees {
-  animation-delay: 1s;  /*delai d'attente avant de demarrer une animation*/
+  animation-delay: 1s;
+  /*delai d'attente avant de demarrer une animation*/
 }
 
 .plats {
@@ -94,31 +103,43 @@ margin: 0 5px;
 @keyframes slide {
   from {
     opacity: 0;
-    transform: translateY(30px);      /*permet de deplacer un element verticalement*/
+    transform: translateY(30px);
+    /*permet de deplacer un element verticalement*/
   }
+
   to {
     opacity: 1;
     transform: translateY(0px);
   }
 }
+
 /*Fin apparition progressive des pages*/
 
 /***Menus-Entrées***Plats***Desserts***/
+.all-menu {
+  padding-bottom: 20px;
+}
+
 .entrees,
 .plats {
   margin-bottom: 12px;
 }
 
 .title-border-bottom {
-  border-bottom: 3px solid;  /*de 390 à 393 c'est pour le brder-bottom, le trait vert en dessous de entrée*/
+  border-bottom: 3px solid;
+  /*de 390 à 393 c'est pour le brder-bottom, le trait vert en dessous de entrée*/
   width: 10%;
   border-color: #99e2d0;
   padding-bottom: 2%;
-  font-weight: 300; /*pour entrée pour le gras de la police"*/
+  font-weight: 300;
+  /*pour entrée pour le gras de la police"*/
   font-family: "Roboto", sans-serif;
-  font-size: 17px;   /*Taille de la police d'écriture*/
-  padding: 30px 0 0 0; /*Pour décaler avec le titre la palette du goût*/
-  margin-top: 0; /*remonte le titre entrée*/
+  font-size: 17px;
+  /*Taille de la police d'écriture*/
+  padding: 30px 0 0 0;
+  /*Pour décaler avec le titre la palette du goût*/
+  margin-top: 0;
+  /*remonte le titre entrée*/
 }
 
 .choice-menu {
@@ -130,17 +151,21 @@ margin: 0 5px;
   cursor: pointer;
   margin-top: 15px;
   position: relative;
-  flex-grow: 1; 
-  overflow: hidden; /*Est une propriété raccourcie qui définit comment gérer le dépassement du contenu d'un élément dans son bloc*/
+  flex-grow: 1;
+  overflow: hidden;
+  /*Est une propriété raccourcie qui définit comment gérer le dépassement du contenu d'un élément dans son bloc*/
   align-items: center;
+  /*margin-bottom: 10px;*/
 }
 
 .name-menu {
   margin-left: 15px;
-  text-overflow: ellipsis; /*Le texte peut être rogné (clipping), afficher une ellipse ('…', */
-  white-space: nowrap; /* Façon dont les blancs sont gérés au sein de l'élément.*/
+  text-overflow: ellipsis;
+  /*Le texte peut être rogné (clipping), afficher une ellipse ('…', */
+  white-space: nowrap;
+  /* Façon dont les blancs sont gérés au sein de l'élément.*/
   overflow: hidden;
-  position: relative; 
+  position: relative;
 }
 
 .title-menu {
@@ -180,11 +205,13 @@ margin: 0 5px;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
-  opacity: 0; /*invisible*/
+  opacity: 0;
+  /*invisible*/
   /*width: auto;  /*Permet de ne pas ecraser le cercle en version mobile*/
   width: 44px;
   display: flex;
-  overflow: hidden; /*Le contenu est rogné si besoin pour s'inscrire dans la boîte de remplissage (padding) et aucune barre de défilement n'est affichée*/
+  overflow: hidden;
+  /*Le contenu est rogné si besoin pour s'inscrire dans la boîte de remplissage (padding) et aucune barre de défilement n'est affichée*/
   height: 80px;
   position: absolute;
   right: -50px;
@@ -206,7 +233,8 @@ margin: 0 5px;
 
 .choice-menu:hover .check {
   right: 0px;
-  opacity: 1; /*visible*/
+  opacity: 1;
+  /*visible*/
   transition-duration: 2s;
   transition: right 2s;
   display: flex;
@@ -215,7 +243,8 @@ margin: 0 5px;
 }
 
 .choice-menu:hover .fa-check.fas.logo_check {
-  transform: rotate(360deg);  /*tour sur soi-méme*/
+  transform: rotate(360deg);
+  /*tour sur soi-méme*/
   transition: transform 2s;
   margin: auto;
   align-items: center;
@@ -229,9 +258,9 @@ margin: 0 5px;
   cursor: pointer;
   justify-content: center;
   left: 0;
-  width: 22px; 
-  height: 22px; 
-  border-radius: 11px; 
+  width: 22px;
+  height: 22px;
+  border-radius: 11px;
   object-fit: cover;
   cursor: pointer;
   overflow: hidden;
@@ -241,10 +270,11 @@ margin: 0 5px;
   transform: rotate(360deg);
   transition: transform 0.5s;
 }
+
 /*Fin coches coulissantes*/
 
-#margin-commander {  /**Est identique au bouton violet de la la page d'accueil, css L135, j'ai ajouté cet id pour les margin*/
-  margin-top: 20px;
+#margin-commander {
+  /**Est identique au bouton violet de la la page d'accueil, css L135, j'ai ajouté cet id pour les margin*/
+  margin-top: 30px;
+
 }
-
-

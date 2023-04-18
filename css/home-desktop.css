@@ -24,7 +24,7 @@
   .explore-restaurant {
     font-size: 16px;
     margin-bottom: 5px;
-    width: 15%;
+    width: 25%;
   }
 
   .title-h1,
@@ -200,7 +200,6 @@
   footer {
     flex-direction: row;
     justify-content: flex-end;
-    margin-top: 3%;
     padding: 60px 55px 30px
   }
 
@@ -224,13 +223,4 @@
 .margin-mention {
   margin-left: 35px;
 }
-
-
-
-
-
-
-
-
-
 }

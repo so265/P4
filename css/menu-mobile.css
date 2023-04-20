@@ -69,12 +69,12 @@ h3 {
 }
 
 #heart-menu {
-  height: 20px;
-    margin-left: 50px;
+  margin-left: 50px;
+  font-size: 25px;
 }
 
 .heart {
-  height: 20px;
+  height: 14px;
 }
 
 .title-bold {

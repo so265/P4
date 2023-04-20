@@ -138,7 +138,7 @@ h3 {
 .title-border-bottom {
   border-bottom: 3px solid;
   /*de 390 à 393 c'est pour le brder-bottom, le trait vert en dessous de entrée*/
-  width: 10%;
+  width: 8%;
   border-color: #99e2d0;
   padding-bottom: 2%;
   font-weight: 300;

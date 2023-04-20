@@ -44,6 +44,7 @@ h3 {
   /***section de la page***/
   background-color: #f6f6f6;
   /*permet de faire remonter l choix des menus sur l'image*/
+  bottom:40px;
   border-radius: 40px 40px 0 0;
   position: relative;
   padding: 0 8px;
@@ -55,12 +56,21 @@ h3 {
   object-fit: cover;
 }
 
+.title-and-heart {
+  display: flex;
+}
+
 .flex-heart {
   /*Alignement du titre et des coeurs*/
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 0 5px;
+}
+
+#heart-menu {
+  height: 20px;
+    margin-left: 50px;
 }
 
 .heart {
@@ -70,7 +80,7 @@ h3 {
 .title-bold {
   font-weight: bolder;
   font-family: 'Shrikhand';
-  font-size: 28px;
+  font-size: 25px;
   margin-bottom: 0;
   /*pour enlever marge entre titre et entrée*/
 }

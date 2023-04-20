@@ -3,6 +3,25 @@
 
 @media all and (min-width: 768px) and (max-width: 1240px) {
 
+#logo-ohmyfood {
+  transform: scale(1.25);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+header:hover {
+  background-color: #99E2D0;
+}
+
+#logo-ohmyfood:hover {
+  -webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+#search-city {
+  background-color: #c5e4dc;
+}
+
   #reservez {
    font-size: 20px;
 }
@@ -11,10 +30,29 @@
     font-size: 15px;
 }
 
+#choice:hover {
+  background-color: #99E2D0;   /*changement couleur visible sur google chrome*/
+}
+
+.a-second-section:hover {
+  background: #cce4f7; /*changement couleur visible sur google chrome*/
+}
+
+
   .backround-card {
     width: 55%;
     margin-left: auto;
     margin-right: auto;
+/*Effet zoom visible sur google chrome*/
+   -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  }
+
+  .backround-card:hover {
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
   }
 
   /******************Footer*************/

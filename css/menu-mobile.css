@@ -13,16 +13,16 @@ html {
 }
 
 body,
-html {
+html,
+h3 {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
 
-h1,
-h2,
-h3 {
-  font-family: "roboto", sans-serif;
+h1  /*logo du footer*/
+{
+  font-family: "shrikhand";
 }
 
 /****************************************CSS pour les menus des quatres restaurants*****************************/

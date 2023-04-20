@@ -34,5 +34,8 @@
       margin-left: 250px;
       margin-right: 250px;
     }
+
+    .title-border-bottom {
+      width: 5%;
   }
-  
+}

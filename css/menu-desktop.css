@@ -5,28 +5,34 @@
 
 @media all and (min-width: 1240px) {
     .name-restaurants {
-        width: 1150px;
-        margin: auto;
+      width: 1150px;
+      margin: auto;
     }
-
+  
     .title-bold {
-        margin-left: 380px;
-        font-size: 28px;
+      font-size: 28px;
+   }
+  
+    .title-and-heart {
+      display: flex;
+      justify-content: center;
+      padding-top: 2%;
     }
-
-    .heart {
-        margin-right: 350px;
-        font-size: 22px;
-        height: 1px;
+  
+    #heart-menu {
+      font-size: 22px;
+      margin-left: 58%;
+      margin-top: 50%;
     }
-
+  
     .choice-menu {
-        width: 634px;
+      width: 634px;
     }
-
+  
     .all-menu {
-        /*Pour centrer tous les menus*/
-        margin-left: 200px;
-        margin-right: 200px;
-       }
-}
+      /*Pour centrer tous les menus*/
+      margin-left: 250px;
+      margin-right: 250px;
+    }
+  }
+  

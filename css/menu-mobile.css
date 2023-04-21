@@ -88,7 +88,7 @@ h1  /*logo du footer, tous les autres c'est roboto*/
 
 /* Menus des quatres restaurants*/
 
-/*Apparition progressive des pages*/
+/**********************************Apparition progressive des pages****************************************/
 
 .entrees,
 .plats,
@@ -103,11 +103,11 @@ h1  /*logo du footer, tous les autres c'est roboto*/
 }
 
 .plats {
-  animation-delay: 2s;
+  animation-delay: 2s; /*delai d'attente avant de demarrer une animation*/
 }
 
 .desserts {
-  animation-delay: 3s;
+  animation-delay: 3s; /*delai d'attente avant de demarrer une animation*/
 }
 
 @keyframes slide {
@@ -203,7 +203,7 @@ h1  /*logo du footer, tous les autres c'est roboto*/
   transition: ease-out 2s;
 }
 
-/*coche coulissante de droite à gauche*/
+/**************************coche coulissante de droite à gauche**********************/
 .check {
   background-color: #99e2d0;
   color: white;

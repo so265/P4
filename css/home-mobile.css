@@ -295,10 +295,10 @@ padding: 0 10px;
 }
 
 .heart {
-  font-size: 30px;
+  margin-right: 20px;
   position: relative;
   cursor: pointer;
-  height: 52px; /*pour s'aligner avec le nom du restaurant*/
+  height: 46px; /*pour s'aligner avec le nom du restaurant*/
   font-size: 25px;
 }
 
@@ -320,6 +320,7 @@ footer {
   display: flex;  /*Je mets dispay: flex pour pouvoir le positionner en row en version desktop*/
   flex-direction: column;
   margin-top: 10px;
+  line-height: 1.5;
 }
 
 .white-logo {

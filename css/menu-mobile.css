@@ -203,9 +203,9 @@ h1  /*logo du footer, tous les autres c'est roboto*/
 
 .price {
   padding-right: 15px;
-  padding-top: 18px;
+  padding-top: 25px;
   transition: ease-out 2s;
-  padding-bottom: 12px;
+  /*padding-bottom: 12px;*/
 }
 
 /**************************coche coulissante de droite à gauche**********************/
@@ -227,7 +227,7 @@ h1  /*logo du footer, tous les autres c'est roboto*/
   display: flex;
   overflow: hidden;
   /*Le contenu est rogné si besoin pour s'inscrire dans la boîte de remplissage (padding) et aucune barre de défilement n'est affichée*/
-  height: 80px;
+  height: 75px;
   position: absolute;
   right: -95px;   /*check caché sur la droite à -95px, c'est au check:hover qu'il apparait à right: 0px*/
   transition: ease-out 1s;

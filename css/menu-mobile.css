@@ -179,6 +179,7 @@ h1  /*logo du footer, tous les autres c'est roboto*/
   /* Façon dont les blancs sont gérés au sein de l'élément.*/
   overflow: hidden;
   position: relative;
+  padding-top: 12px;
 }
 
 .title-menu {
@@ -202,8 +203,9 @@ h1  /*logo du footer, tous les autres c'est roboto*/
 
 .price {
   padding-right: 15px;
-  padding-top: 23px;
+  padding-top: 18px;
   transition: ease-out 2s;
+  padding-bottom: 12px;
 }
 
 /**************************coche coulissante de droite à gauche**********************/
@@ -254,9 +256,6 @@ h1  /*logo du footer, tous les autres c'est roboto*/
 }
 
 .choice-menu:hover .fa-check.fas.logo_check {
-  transform: rotate(360deg);
-  /*tour sur soi-méme*/
-  transition: transform 2s;
   margin: auto;
   align-items: center;
 }
@@ -277,10 +276,7 @@ h1  /*logo du footer, tous les autres c'est roboto*/
   overflow: hidden;
 }
 
-.fa-check.fas.logo_check:hover {
-  transform: rotate(360deg);
-  transition: transform 0.5s;
-}
+
 
 /*Fin coches coulissantes*/
 

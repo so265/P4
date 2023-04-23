@@ -221,15 +221,13 @@ h1  /*logo du footer, tous les autres c'est roboto*/
   opacity: 0;
   /*invisible*/
   /*width: auto;  /*Permet de ne pas ecraser le cercle en version mobile*/
-  width: 44px;
+  width: 59px;
   display: flex;
   overflow: hidden;
   /*Le contenu est rogné si besoin pour s'inscrire dans la boîte de remplissage (padding) et aucune barre de défilement n'est affichée*/
   height: 80px;
   position: absolute;
-  right: -95px;
-  padding-left: 15px;
-  padding-right: 15px;
+  right: -95px;   /*check caché sur la droite à -95px, c'est au check:hover qu'il apparait à right: 0px*/
   transition: ease-out 1s;
 }
 
@@ -240,7 +238,7 @@ h1  /*logo du footer, tous les autres c'est roboto*/
 }
 
 .choice-menu:hover .price {
-  margin-right: 60px;
+  margin-right: 15px;
   transition: margin-right 1s;
 }
 

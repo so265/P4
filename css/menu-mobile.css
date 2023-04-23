@@ -43,8 +43,7 @@ h1  /*logo du footer, tous les autres c'est roboto*/
 .name-restaurants {
   /***section de la page***/
   background-color: #f6f6f6;
-  /*permet de faire remonter l choix des menus sur l'image*/
-  bottom:40px;
+  top: -30px;            /*permet de faire remonter le choix des menus sur l'image*/
   border-radius: 40px 40px 0 0;
   position: relative;
   padding: 0 8px;

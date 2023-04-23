@@ -227,7 +227,7 @@ h1  /*logo du footer, tous les autres c'est roboto*/
   /*Le contenu est rogné si besoin pour s'inscrire dans la boîte de remplissage (padding) et aucune barre de défilement n'est affichée*/
   height: 80px;
   position: absolute;
-  right: -50px;
+  right: -95px;
   padding-left: 15px;
   padding-right: 15px;
   transition: ease-out 1s;

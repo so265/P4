@@ -227,7 +227,7 @@ h1  /*logo du footer, tous les autres c'est roboto*/
   display: flex;
   overflow: hidden;
   /*Le contenu est rogné si besoin pour s'inscrire dans la boîte de remplissage (padding) et aucune barre de défilement n'est affichée*/
-  height: 75px;
+  height: 76px;
   position: absolute;
   right: -95px;   /*check caché sur la droite à -95px, c'est au check:hover qu'il apparait à right: 0px*/
   transition: linear 0.3s;

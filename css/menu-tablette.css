@@ -25,32 +25,15 @@ h1  /*logo du footer, tous les autres c'est roboto*/
   font-family: "shrikhand";
 }
 
-
-
 @media all and (min-width: 768px) and (max-width: 1240px) {
 
-header,
-footer {
-    background-color:#d7f1eb;;
+  .title-bold {
+    margin-left: 100px;
 }
 
-.choice-menu {
-background-color:#ebe6f0;
-}
-
-.explore-restaurant {
-    width: 30%;
-    background: linear-gradient(193.33deg, #c9afe9 -11.44%, #da96c6 123.93%);
-    color: black;
-}
-
-
-.white-logo {
-    color: black;
-}
-
-footer a {
-    color: black;
+  .all-menu {
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 }

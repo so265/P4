@@ -31,35 +31,18 @@ h1 /*logo du footer*/
 	transition: .3s ease-in-out;
 }
 
-header:hover {
-  background-color: #99E2D0;
-}
-
 #logo-ohmyfood:hover {
   -webkit-transform: scale(1);
 	transform: scale(1);
 }
 
-#search-city {
-  background-color: #c5e4dc;
-}
-
-  #reservez {
+ #reservez {
    font-size: 20px;
 }
 
   #discover {
     font-size: 15px;
 }
-
-#choice:hover {
-  background-color: #99E2D0;   /*changement couleur visible sur google chrome*/
-}
-
-.a-second-section:hover {
-  background: #cce4f7; /*changement couleur visible sur google chrome*/
-}
-
 
   .backround-card {
     width: 55%;

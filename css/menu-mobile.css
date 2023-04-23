@@ -67,6 +67,10 @@ h1  /*logo du footer, tous les autres c'est roboto*/
   margin: 0 5px;
 }
 
+#different-heart-margin {  /*Pour la page à la française, car coeur plus éloigné que les autres menus*/
+  margin-left: 50px;
+ }
+
 #heart-menu {
   margin-left: 50px;
   font-size: 25px;
@@ -79,7 +83,7 @@ h1  /*logo du footer, tous les autres c'est roboto*/
 .title-bold {
   font-weight: bolder;
   font-family: 'Shrikhand';
-  font-size: 25px;
+  font-size: 23px;
   margin-bottom: 0;
   /*pour enlever marge entre titre et entrée*/
 }

@@ -33,7 +33,7 @@ h1  /*logo du footer, tous les autres c'est roboto*/
     height: 250px;
   }
 
-    .name-restaurants {
+  .name-restaurants {
       width: 1150px;
       margin: auto;
     }
@@ -41,8 +41,12 @@ h1  /*logo du footer, tous les autres c'est roboto*/
     .title-bold {
       font-size: 28px;
    }
-  
-    .title-and-heart {
+
+   #different-heart-margin {
+    margin-left: 0px;
+}
+
+   .title-and-heart {
       display: flex;
       justify-content: center;
       padding-top: 2%;

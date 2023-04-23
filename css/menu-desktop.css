@@ -28,6 +28,11 @@ h1  /*logo du footer, tous les autres c'est roboto*/
 
 
 @media all and (min-width: 1240px) {
+
+  .img-menus {
+    height: 250px;
+  }
+
     .name-restaurants {
       width: 1150px;
       margin: auto;

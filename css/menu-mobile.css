@@ -43,7 +43,6 @@ h1  /*logo du footer, tous les autres c'est roboto*/
 .name-restaurants {
   /***section de la page***/
   background-color: #f6f6f6;
-  top: -30px;            /*permet de faire remonter le choix des menus sur l'image*/
   border-radius: 40px 40px 0 0;
   position: relative;
   padding: 0 8px;
@@ -57,6 +56,7 @@ h1  /*logo du footer, tous les autres c'est roboto*/
 
 .title-and-heart {
   display: flex;
+  margin-top: -40px;  /*permet de faire remonter le choix des menus sur l'image*/
 }
 
 .flex-heart {
@@ -285,5 +285,5 @@ h1  /*logo du footer, tous les autres c'est roboto*/
 #margin-commander {
   /**Est identique au bouton violet de la la page d'accueil, css L135, j'ai ajouté cet id pour les margin*/
   margin-top: 30px;
-
+margin-bottom: 10px;
 }

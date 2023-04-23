@@ -214,8 +214,6 @@ h1  /*logo du footer, tous les autres c'est roboto*/
   color: white;
   font-weight: bold;
   border: none;
- 
-  /* padding: 0 1.25rem;*/
   font-size: 1rem;
   cursor: pointer;
   display: inline-flex;
@@ -233,11 +231,11 @@ h1  /*logo du footer, tous les autres c'est roboto*/
   transition: linear 0.3s;
 }
 
-.check:hover {
+/*.check:hover {
   opacity: 1;
   right: 0px;
   transition: right 1s;
-}
+}*/
 
 .choice-menu:hover .price {
   margin-right: 15px;

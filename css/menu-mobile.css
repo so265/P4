@@ -231,11 +231,11 @@ h1  /*logo du footer, tous les autres c'est roboto*/
   transition: linear 0.3s;
 }
 
-/*.check:hover {
+.check:hover {
   opacity: 1;
   right: 0px;
   transition: right 1s;
-}*/
+}
 
 .choice-menu:hover .price {
   margin-right: 15px;
@@ -246,11 +246,13 @@ h1  /*logo du footer, tous les autres c'est roboto*/
   right: 0px;
   opacity: 1;
   /*visible*/
-  transition-duration: 2s;
-  transition: right 2s;
+  /*transition-duration: 2s;
+  transition: right 2s;*/
   display: flex;
   align-items: center;
   position: relative;
+  transition-timing-function: cubic-bezier(.08,.82,.17,1);  /*La fonction cubic-bezier() peut être utilisée avec :animation-timing-function et transition-timing-function*/
+  animation-timing-function: linear;
 }
 
 .choice-menu:hover .fa-check.fas.logo_check {

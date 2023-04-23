@@ -230,7 +230,7 @@ h1  /*logo du footer, tous les autres c'est roboto*/
   height: 75px;
   position: absolute;
   right: -95px;   /*check caché sur la droite à -95px, c'est au check:hover qu'il apparait à right: 0px*/
-  transition: ease-out 1s;
+  transition: linear 0.3s;
 }
 
 .check:hover {

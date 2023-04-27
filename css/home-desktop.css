@@ -89,7 +89,7 @@ h1 /*logo du footer*/
 
   /*À terme, les visiteurs pourront sauvegarder leurs menus préférés, remplissage progressif du coeur au survol de la souris*/
   .fas.fa-heart {
-    /*full*/
+    /*full, plein*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,7 +100,7 @@ h1 /*logo du footer*/
   }
 
   .heart:hover .far.fa-heart {
-    /*empty*/
+    /*empty, vide*/
     animation-name: coeurFar;
     /*je donne un nom à l'animation*/
     animation: coeurFar 3000ms;
@@ -111,7 +111,7 @@ h1 /*logo du footer*/
     /*full*/
     animation-name: coeur;
     /*je donne un nom à l'animation*/
-    animation: coeur 3000ms;
+    animation: coeur 3000ms; /*j'utilise le nom donné et lui met un temps*/
     opacity: 1;
     /*opacity 1 on le voit*/
     background: -webkit-linear-gradient(45deg, #FF79DA, #9356DC);
@@ -124,9 +124,9 @@ h1 /*logo du footer*/
     /*passe en dessous du coeur vide*/
   }
 
-  @keyframes coeur {
+  @keyframes coeur {    /*Les keyframes permettent d'avoir une animation plus fluide qu'avec les transitions*/
 
-    /*full*/
+    /*full, plein*/
     /*** Permet de définir les étapes qui composent la séquence d'une animation CSS.***/
     0% {
       opacity: 0;
@@ -141,7 +141,7 @@ h1 /*logo du footer*/
 
   @keyframes coeurFar {
 
-    /*empty*/
+    /*empty, vide*/
     /*Ansi les contours noirs du coueur vide disparaissent, au départ avant survol sont visibles puis au survol disparaissent*/
     0% {
       opacity: 1;

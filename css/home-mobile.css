@@ -22,7 +22,7 @@ h1 /*logo du footer*/
   font-family: "shrikhand";
 }
 
-/****Loading spinner****/
+/****Loading spinner****/ /*Il prend toute la page car je l'ai inséré dans une DIV et je charge l'image en tant que "background" en utilisant le CSS.*/
 #wrapper {
   display: flex;
   flex-direction: column;
@@ -34,7 +34,7 @@ h1 /*logo du footer*/
   animation: 3s hidewrapper forwards;
   background-color:rgb(189, 185, 185);
   opacity: 0.8;
-  z-index: 100000;
+  z-index: 100000; /*z-index permet de préciser l'empilement des éléments, sur l'axe vertical. Elle permet par exemple d'indiquer que pour deux éléments A et B partiellement ou totalement superposés, A sera placé au dessus de B ou inversement.*/
   color: #ffffff;
   text-align: center;
   display: flex;
@@ -50,7 +50,7 @@ h1 /*logo du footer*/
   margin-right: 10px;
   border-radius: 50%;
   border-top-color: #ffffff;
-  animation: 1s spin infinite ease-in-out;
+  animation: 1s spin infinite ease-in-out;  /*L'animation sera répétée à l'infini*/
 }
 #chargement {  /*Le mot loading s'affiche lors de l'apparition du loadding spinner*/
   color: whitesmoke;
@@ -299,18 +299,18 @@ padding: 0 10px;
   position: relative;
   cursor: pointer;
   height: 46px; /*pour s'aligner avec le nom du restaurant*/
-  font-size: 25px;
+  font-size: 25px; /*taille du coeur*/
 }
 
-.fas.fa-heart {   /*full*//***Le remplissage noire est en display none et est suppeposé sur le heart empty*/
-  position: absolute;
+.fas.fa-heart {   /*full, plein*/    /***Le remplissage noire est en display none et est suppeposé sur le heart empty*/
+  position: absolute; /*position absolute et z index permettent de supperposer les 2 coeurs*/
   top: 3px;
   left: 0;
   z-index: 4;
-  display: none;
+  display: none; /*le coeur est caché en version mobile*/
 }
 
-.far.fa-heart.fa-heart {   /*empty*/
+.far.fa-heart.fa-heart {   /*empty, vide*/
   position: relative; 
 }
           

@@ -96,8 +96,8 @@ h1  /*logo du footer, tous les autres c'est roboto*/
 .entrees,
 .plats,
 .desserts {
-  opacity: 0;
-  animation: 1s linear forwards slide;
+  opacity: 0; 
+  animation: 1s linear forwards slide; /*animation, propriété raccourcie qui synthetise animation-duration, animation-direction, animation-name, forwards signifie vers l'avant*/
 }
 
 .entrees {
@@ -113,7 +113,7 @@ h1  /*logo du footer, tous les autres c'est roboto*/
   animation-delay: 3s; /*delai d'attente avant de demarrer une animation*/
 }
 
-@keyframes slide {
+@keyframes slide {    /*Permet d'avoir 1 animation plus fluide qu'avec les ransitions, défini les étapes qui composent la séquence d'une animation CSS*/
   from {
     opacity: 0;
     transform: translateY(30px);
@@ -231,20 +231,14 @@ h1  /*logo du footer, tous les autres c'est roboto*/
   transition: linear 0.3s;
 }
 
-.check:hover {
-  opacity: 1;
-  right: 0px;
-  transition: right 1s;
-}
-
 .choice-menu:hover .price {
-  margin-right: 15px;
-  transition: margin-right 1s;
+  margin-right: 15px; /*distance par rapport au bord droit*/
+  transition: margin-right 1s; /*Les transitions CSS permettent de contrôler la vitesse d'animation lorsque les propriétés CSS sont modifiées.*/
 }
 
 .choice-menu:hover .check {
-  right: 0px;
-  opacity: 1;
+  right: 0px; /*On le voit à 0px, il apparait*/
+  opacity: 1; /*on le voit*/
   /*visible*/
   /*transition-duration: 2s;
   transition: right 2s;*/
@@ -252,8 +246,8 @@ h1  /*logo du footer, tous les autres c'est roboto*/
   align-items: center;
   position: relative;
   transition-timing-function: cubic-bezier(.08,.82,.17,1);  /*La fonction cubic-bezier() peut être utilisée avec :animation-timing-function et transition-timing-function*/
-  animation-timing-function: linear;
-}
+  animation-timing-function: linear; /*La fonction cubic-bezier() permet d'indiquer une progression non linéaire pour les animations et les transitions.*/
+}                                    /*La courbe de Bezier est un outil mathématique qui permet de définir une courbe avec seulement 4 valeurs numériques.*/
 
 .choice-menu:hover .fa-check.fas.logo_check {
   margin: auto;
@@ -275,8 +269,6 @@ h1  /*logo du footer, tous les autres c'est roboto*/
   cursor: pointer;
   overflow: hidden;
 }
-
-
 
 /*Fin coches coulissantes*/
 
